@@ -1,0 +1,18 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "get-webhook-info": "node scripts/tg-utils.js get-webhook-info",
+    "set-webhook-local": "node scripts/tg-utils.js set-webhook-local",
+    "set-webhook-prod": "node scripts/tg-utils.js set-webhook-prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
